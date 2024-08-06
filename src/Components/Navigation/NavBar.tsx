@@ -1,15 +1,16 @@
 // import { NavLink } from "react-router-dom"
 import "./NavBar.style.css"
-import { FaToriiGate } from "react-icons/fa";
-import { MdOutlineSubject } from "react-icons/md";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { GiFluffyCloud } from "react-icons/gi";
+import { SearchField } from "./SearchField";
 
-export const NavBar = () => {
+const NavBar = () => {
   return (
     <div className="nav-container">
         <div className="nav-links-container">
-            <h1 className="nav-icon">
-                <MdOutlineSubject />
-            </h1>
+            <button className="nav-icon">
+                <GiHamburgerMenu />
+            </button>
             {/* <NavLink to="/">
                 <h1>Home</h1>
             </NavLink>
@@ -25,12 +26,17 @@ export const NavBar = () => {
             <NavLink to="news">
                 <h1>News</h1>
             </NavLink> */}
+            <div className="logo-container">
+                <h1 className="nav-icon">
+                    Anime 
+                    <p><GiFluffyCloud /></p>
+                    Reviews
+                </h1>
+            </div>
         </div>
-        <div className="logo-containcer">
-            <h1 className="nav-icon">
-                <FaToriiGate />
-            </h1>
-        </div>
+        <SearchField />
     </div>
   )
 }
+
+export default NavBar;

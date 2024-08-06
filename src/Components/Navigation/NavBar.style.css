@@ -1,0 +1,37 @@
+.nav-container {
+    background-color: var(--clr-bg-dark);
+    border-bottom: 1px solid var(--clr-white);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links-container button {
+    background-color: transparent;
+    border: none;
+}
+
+.nav-icon {
+    margin: 0;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--clr-white);
+    font-family: 'Brush Script MT', cursive;
+}
+
+.nav-icon p {
+    font-size: 1.5rem;
+    padding: 0 .5rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

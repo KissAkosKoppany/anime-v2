@@ -4,7 +4,7 @@ import Search from "./Routes/Search"
 import Watch from "./Routes/Watch"
 import News from "./Routes/News"
 import TopLists from "./Routes/TopLists"
-import { NavBar } from "./Components/NavBar"
+import NavBar from "./Components/Navigation/NavBar"
 
 function App() {
 
