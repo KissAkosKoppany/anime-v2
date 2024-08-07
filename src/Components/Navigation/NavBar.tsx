@@ -1,4 +1,3 @@
-// import { NavLink } from "react-router-dom"
 import "./NavBar.style.css"
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GiFluffyCloud } from "react-icons/gi";
@@ -11,26 +10,11 @@ const NavBar = () => {
             <button className="nav-icon">
                 <GiHamburgerMenu />
             </button>
-            {/* <NavLink to="/">
-                <h1>Home</h1>
-            </NavLink>
-            <NavLink to="search">
-                <h1>Search</h1>
-            </NavLink>
-            <NavLink to="top-lists">
-                <h1>Top Lists</h1>
-            </NavLink>
-            <NavLink to="watch">
-                <h1>Watch</h1>
-            </NavLink>
-            <NavLink to="news">
-                <h1>News</h1>
-            </NavLink> */}
             <div className="logo-container">
                 <h1 className="nav-icon">
-                    Anime 
+                    Logo
                     <p><GiFluffyCloud /></p>
-                    Reviews
+                    Logo
                 </h1>
             </div>
         </div>
