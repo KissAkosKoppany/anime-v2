@@ -1,0 +1,13 @@
+.nav-modal-container {
+    border-right: 1px solid var(--clr-white);
+    border-bottom: 1px solid var(--clr-white);
+    max-width: 300px;
+}
+
+.nav-modal-container h1 {
+    font-size: var(--font-size-300);
+    margin: 0;
+    padding: var(--spacer-100) var(--spacer-400);
+    color: var(--clr-white);
+    text-decoration: none;
+}
