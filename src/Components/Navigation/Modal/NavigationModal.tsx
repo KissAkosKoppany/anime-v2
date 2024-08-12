@@ -4,20 +4,20 @@ import "./NavigationModal.style.css"
 const NavigationModal = () => {
   return (
     <div className="nav-modal-container">
-        <NavLink to="/">
-            <h1>Home</h1>
+        <NavLink className="link" to="/">
+            Home
         </NavLink>
-        <NavLink to="search">
-            <h1>Search</h1>
+        <NavLink className="link" to="search">
+            Search
         </NavLink>
-        <NavLink to="top-lists">
-            <h1>Top Lists</h1>
+        <NavLink className="link" to="top-lists">
+            Top Lists
         </NavLink>
-        <NavLink to="watch">
-            <h1>Watch</h1>
+        <NavLink className="link" to="watch">
+            Watch
         </NavLink>
-        <NavLink to="news">
-            <h1>News</h1>
+        <NavLink className="link" to="news">
+            News
         </NavLink>
     </div>
   )

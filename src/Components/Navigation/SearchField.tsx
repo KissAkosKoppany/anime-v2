@@ -2,8 +2,9 @@ import { MdSearch } from "react-icons/md";
 
 export const SearchField = () => {
   return (
-    <button className="nav-icon">
+    <div className="nav-icon searchbar">
         <MdSearch />
-    </button>
+        <input type="text" placeholder="Search..." />
+    </div>
   )
 }

@@ -5,14 +5,14 @@ import Watch from "./Routes/Watch"
 import News from "./Routes/News"
 import TopLists from "./Routes/TopLists"
 import NavBar from "./Components/Navigation/NavBar"
-import NavigationModal from "./Components/Navigation/Modal/NavigationModal"
+// import NavigationModal from "./Components/Navigation/Modal/NavigationModal"
 
 function App() {
 
   return (
     <>
       <NavBar />
-      <NavigationModal />
+      {/* <NavigationModal /> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/search' element={<Search />} />
