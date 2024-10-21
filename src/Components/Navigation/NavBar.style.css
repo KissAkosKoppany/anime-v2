@@ -1,6 +1,6 @@
 .nav-container {
     background-color: var(--clr-bg-dark);
-    border-bottom: 1px solid var(--clr-white);
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
     display: flex;
     justify-content: space-between;
 }
