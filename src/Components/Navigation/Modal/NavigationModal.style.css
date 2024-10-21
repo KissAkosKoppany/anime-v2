@@ -1,0 +1,19 @@
+.nav-modal-container {
+    border-right: 1px solid var(--clr-white);
+    border-bottom: 1px solid var(--clr-white);
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-modal-container .link {
+    font-size: var(--font-size-300);
+    margin: 0;
+    padding: var(--spacer-100) var(--spacer-400);
+    color: var(--clr-white);
+    text-decoration: none;
+}
+
+.nav-modal-container .link:hover {
+    color: red;
+}

@@ -3,17 +3,13 @@
     border-bottom: 1px solid rgba(255, 255, 255, .2);
     display: flex;
     justify-content: space-between;
+    padding: var(--spacer-100) 0;
 }
 
 .nav-links-container {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.nav-links-container button {
-    background-color: transparent;
-    border: none;
 }
 
 .nav-icon {
@@ -25,6 +21,8 @@
     font-size: 2rem;
     color: var(--clr-white);
     font-family: 'Brush Script MT', cursive;
+    background-color: transparent;
+    border: none;
 }
 
 .nav-icon p {
@@ -34,4 +32,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.searchbar {
+    border: 2px solid var(--clr-white);
+    border-radius: 40px;
+}
+
+.searchbar input {
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    padding: 0 var(--spacer-100);
+    color: var(--clr-white);
+    font-size: var(--font-size-300);
+}
+
+.searchbar input:focus {
+    border: none;
 }
